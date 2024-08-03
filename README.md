@@ -1,5 +1,5 @@
 # littlelemon
-A web app for littlelemon
+An api project for littlelemon
 
 **some url routes**
 
