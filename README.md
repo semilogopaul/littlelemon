@@ -1,5 +1,5 @@
 # littlelemon
-An api project for littlelemon
+Developed an API for LittleLemon Restaurant for reservation management and other functions, featuring token-based authentication, with throttling and pagination to ensure secure and efficient API usage
 
 **some url routes**
 
