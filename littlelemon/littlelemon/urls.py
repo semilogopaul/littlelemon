@@ -19,12 +19,15 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from restaurant.views import BookingViewSet
 from rest_framework.authtoken.views import obtain_auth_token
+import debug_toolbar
+
 
 router = DefaultRouter()
 router.register(r'tables', BookingViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('__debug__/', include(debug_toolbar.urls)),
     path('restaurant/menu/', include('restaurant.urls')),
     path('restaurant/booking/', include(router.urls)),
     path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
