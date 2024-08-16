@@ -1,9 +1,8 @@
 # littlelemon
-An api project for littlelemon
+Developed an API for LittleLemon Restaurant for reservation management and other functions, featuring token-based authentication, throttling and pagination to ensure secure and efficient API usage. I also integrated the django debug toolbar feature for easy debugging.
 
 **some url routes**
 
-- http://localhost:8000/api-token-auth/
 - http://localhost:8000/auth/users/
 - http://localhost:8000/auth/users/me/
 - http://localhost:8000/auth/users/confirm/
