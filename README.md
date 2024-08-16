@@ -1,5 +1,5 @@
 # littlelemon
-Developed an API for LittleLemon Restaurant for reservation management and other functions, featuring token-based authentication, throttling and pagination to ensure secure and efficient API usage. I also integrated the django debug toolbar feature for easy debugging.
+Developed an API for the LittleLemon Restaurant for reservation management and other functions, implementing token-based authentication, throttling, and pagination to ensure secure and efficient API usage. The API supports multiple response formats, including JSON and XML. Additionally, I integrated the Django Debug Toolbar to facilitate easy debugging. 
 
 **some url routes**
 
